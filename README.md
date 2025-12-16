@@ -1,32 +1,60 @@
-# DSA using Python
+📘 Data Structures & Algorithms using Python
 
-This repository contains my **Data Structures & Algorithms practice using Python**.
+This repository contains my Data Structures & Algorithms (DSA) practice using Python, focused on logic building, consistency, and interview preparation.
 
-## 📌 Topics Covered
-- Arrays
-- Strings
-- Recursion
-- Sorting Algorithms
-- Searching Algorithms
-- Stack
-- Queue
-- Linked List
-- Trees (upcoming)
-- Graphs (upcoming)
+📌 Topics Covered
 
-## 🧠 Purpose
-- Improve problem-solving skills
-- Prepare for coding interviews
-- Strengthen Python + DSA fundamentals
+Arrays
 
-## 🛠 Tech Stack
-- Python
-- VS Code
-- Git & GitHub
+Strings
 
-## 🚀 Progress
-- Started: December 2025
-- Status: In progress
+Recursion
 
-## 📬 Connect with me
-GitHub: https://github.com/palakkhare02
+Sorting Algorithms
+
+Searching Algorithms
+
+Stack
+
+Queue
+
+Linked List
+
+Trees (upcoming)
+
+Graphs (upcoming)
+
+🧠 Purpose
+
+Improve problem-solving skills
+
+Prepare for coding interviews
+
+Strengthen Python + DSA fundamentals
+
+Build consistency through daily practice
+
+🛠 Tech Stack
+
+Python
+
+VS Code
+
+Git & GitHub
+
+🚀 Progress
+
+Started: December 2025
+
+Status: In Progress
+
+Practice Style: Daily problem-wise commits
+
+📬 Connect with Me
+
+GitHub: palakkhare02
+
+⭐ Note
+
+This repository is actively maintained.
+New problems and explanations are added regularly.
