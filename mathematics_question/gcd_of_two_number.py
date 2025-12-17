@@ -17,6 +17,6 @@ def gcd(n, m):
     while m != 0:
         n, m = m, n % m  # Assign m to n and remainder of n divided by m to m
  
-    return n  # When m becomes 0, n is the GCD
+    return n  # When m becomes 0,n is the GCD
 
  
