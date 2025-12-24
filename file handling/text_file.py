@@ -18,3 +18,8 @@ with open('example.txt','w') as file:
 ## Write a file(wwithout Overwriting)
 with open('example.txt','a') as file:
     file.write("Append operation taking place!\n")
+
+### Writing a list of lines to a file
+lines=['First line \n','Second line \n','Third line\n']
+with open('example.txt','a') as file:
+    file.writelines(lines)
