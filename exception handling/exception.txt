@@ -1,0 +1,7 @@
+##### What Are Exceptions?
+Exceptions are events that disrupt the normal flow of a program. They occur when an error is encountered during program execution. Common exceptions include:
+
+- ZeroDivisionError: Dividing by zero.
+- FileNotFoundError: File not found.
+- ValueError: Invalid value.
+- TypeError: Invalid type.
