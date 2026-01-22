@@ -1,0 +1,59 @@
+What is a Dynamic Array?
+
+A Dynamic Array is an array that can automatically grow or shrink in size during runtime.
+
+In normal (static) arrays:
+
+Size is fixed.
+
+You cannot add more elements once it is full.
+
+In dynamic arrays:
+
+Size changes automatically.
+
+When the array becomes full, a new bigger array is created and old elements are copied into it.
+
+Example:
+
+Start with size = 4
+
+Add 5th element → array resizes to size = 8
+
+This is how languages like Python (list), Java (ArrayList), and C++ (vector) work internally.
+
+⚙️ How Dynamic Array Works
+
+Create an initial array with small capacity.
+
+Insert elements normally.
+
+If the array becomes full:
+
+Create a new array with double size.
+
+Copy all old elements to the new array.
+
+Continue inserting.
+
+This resizing takes O(n) time, but since it does not happen often, the average insertion time is O(1) (amortized).
+
+🧠 Operations Supported
+
+Insert element (push)
+
+Delete element (pop / remove)
+
+Access element by index
+
+Resize array automatically
+
+Get current size and capacity
+
+⏱️ Time Complexity
+Operation	Time Complexity
+Access	O(1)
+Insert (avg)	O(1) amortized
+Insert (worst – resize)	O(n)
+Delete	O(n)
+
