@@ -48,7 +48,7 @@ Access element by index
 
 Resize array automatically
 
-Get current size and capacity
+Get current size and capacity.
 
 ⏱️ Time Complexity
 Operation	Time Complexity
