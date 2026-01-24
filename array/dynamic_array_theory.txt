@@ -1,18 +1,58 @@
-What is a Dynamic Array?
+Here is a **clean, well-structured theory note on Dynamic Array in Python** that you can directly upload to your GitHub notes file, matching the style of your Linked List and Array notes.
 
-A Dynamic Array is an array that can automatically grow or shrink in size during runtime.
+---
 
-In normal (static) arrays:
+# 📌 Dynamic Array in Python – Theory Notes
 
-Size is fixed.
+## 1. What is a Dynamic Array?
 
-You cannot add more elements once it is full.
+A **Dynamic Array** is an array that can **automatically resize itself** when elements are added or removed.
+Unlike static arrays (fixed size), dynamic arrays **grow and shrink at runtime**.
 
-In dynamic arrays:
+In Python, the built-in **list** is implemented as a **dynamic array**.
 
-Size changes automatically.
+---
 
-When the array becomes full, a new bigger array is created and old elements are copied into it.
+## 2. Why Dynamic Arrays Are Needed
+
+In static arrays:
+
+* Size must be declared in advance
+* Memory cannot be changed later
+* Overflow occurs if size is exceeded
+
+Dynamic arrays solve this by:
+
+* Allocating extra memory
+* Resizing automatically when capacity is full
+
+---
+
+## 3. How Dynamic Arrays Work (Resizing Concept)
+
+Dynamic arrays maintain:
+
+* **Size** → number of elements stored
+* **Capacity** → total allocated space
+
+When the array becomes full:
+
+1. A **new larger array** is created (usually double the capacity)
+2. All existing elements are **copied** to the new array
+3. Old array memory is released
+4. New element is inserted
+
+This process is called **Resizing / Reallocation**.
+
+---
+
+## 4. Python List as a Dynamic Array
+
+Python `list`:
+
+* Automatically manages memory
+* Grows when needed
+* Shrinks when many elements are removed
 
 Example:
 
@@ -48,7 +88,7 @@ Access element by index
 
 Resize array automatically
 
-Get current size and capacity.
+Get current size and capacity
 
 ⏱️ Time Complexity
 Operation	Time Complexity
