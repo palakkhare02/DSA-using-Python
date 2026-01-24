@@ -1,6 +1,4 @@
-Here is a **clean, well-structured theory note on Dynamic Array in Python** that you can directly upload to your GitHub notes file, matching the style of your Linked List and Array notes.
 
----
 
 # 📌 Dynamic Array in Python – Theory Notes
 
