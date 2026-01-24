@@ -1,0 +1,147 @@
+Here is a **clean, well-structured theory note on Linked List in Python** that you can directly upload to your GitHub as a `.md` or `.txt` notes file.
+
+---
+
+# 📌 Linked List in Python – Theory Notes
+
+## 1. What is a Linked List?
+
+A **Linked List** is a linear data structure in which elements (called **nodes**) are stored in a sequence, but unlike arrays, they are **not stored in contiguous memory locations**.
+
+Each node contains:
+
+* **Data** – the value stored
+* **Next** – a reference (pointer) to the next node in the list
+
+Because of this, insertion and deletion operations are efficient compared to arrays.
+
+---
+
+## 2. Basic Terminology
+
+* **Node**: A single element of the list containing data and a pointer
+* **Head**: The first node of the linked list
+* **Tail**: The last node whose `next` pointer is `None`
+* **Pointer / Reference**: Stores the address of the next node
+
+---
+
+## 3. Types of Linked Lists
+
+### (a) Singly Linked List
+
+Each node points only to the next node.
+
+```
+[Data | Next] → [Data | Next] → [Data | None]
+```
+
+Traversal is only in **forward direction**.
+
+---
+
+### (b) Doubly Linked List
+
+Each node has two pointers:
+
+* One to the previous node
+* One to the next node
+
+```
+None ← [Prev | Data | Next] ↔ [Prev | Data | Next] → None
+```
+
+Traversal is possible in **both directions**.
+
+---
+
+### (c) Circular Linked List
+
+The last node points back to the first node (head), forming a circle.
+
+```
+[Data | Next] → [Data | Next] → [Data | Next]
+        ↑_____________________________________|
+```
+
+No node points to `None`.
+
+---
+
+## 4. Advantages of Linked List
+
+* ✅ Dynamic size (can grow or shrink easily)
+* ✅ Efficient insertion and deletion (no shifting needed)
+* ✅ Better memory utilization for frequent updates
+
+---
+
+## 5. Disadvantages of Linked List
+
+* ❌ No direct access (no indexing like arrays)
+* ❌ Extra memory needed for pointers
+* ❌ Slower traversal compared to arrays
+
+---
+
+## 6. Basic Operations on Linked List
+
+### 6.1 Traversal
+
+Visiting each node one by one starting from the head.
+
+### 6.2 Insertion
+
+* At the beginning
+* At the end
+* At a specific position
+
+### 6.3 Deletion
+
+* From the beginning
+* From the end
+* From a specific position
+
+### 6.4 Searching
+
+Finding a node with a given value.
+
+---
+
+## 7. Time Complexity
+
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Access    | O(n)            |
+| Search    | O(n)            |
+| Insertion | O(1) (at head)  |
+| Deletion  | O(1) (at head)  |
+
+---
+
+## 8. Linked List vs Array
+
+| Feature   | Array        | Linked List    |
+| --------- | ------------ | -------------- |
+| Memory    | Contiguous   | Non-contiguous |
+| Size      | Fixed        | Dynamic        |
+| Access    | O(1) (index) | O(n)           |
+| Insertion | Costly       | Efficient      |
+
+---
+
+## 9. Applications of Linked List
+
+* Implementation of **Stacks and Queues**
+* **Dynamic memory management**
+* **Undo/Redo operations** in editors
+* **Hash tables (chaining)**
+* **Polynomial representation**
+
+---
+
+## 10. Conclusion
+
+Linked Lists are powerful data structures when frequent insertion and deletion are required. Although access time is slower than arrays, their dynamic nature makes them very useful in many real-world applications.
+
+---
