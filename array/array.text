@@ -1,0 +1,151 @@
+Here is a **clean, well-structured theory note on Arrays in Python** that you can directly upload to your GitHub notes file, similar to your Linked List notes.
+
+---
+
+# 📌 Array in Python – Theory Notes
+
+## 1. What is an Array?
+
+An **Array** is a linear data structure used to store elements of the **same data type** in **contiguous memory locations**.
+Each element can be accessed directly using its **index**, which starts from `0` in Python.
+
+In Python, arrays can be implemented using:
+
+* **List** (most commonly used)
+* `array` module (for type-specific arrays)
+* `numpy` arrays (for numerical computing)
+
+---
+
+## 2. Basic Terminology
+
+* **Index**: Position of an element in the array (starts from 0)
+* **Element**: Value stored at a particular index
+* **Length / Size**: Number of elements in the array
+* **Contiguous Memory**: Memory blocks placed next to each other
+
+---
+
+## 3. Types of Arrays
+
+### (a) One-Dimensional Array
+
+Stores elements in a single row.
+
+```
+Index:   0   1   2   3
+Array:  [10, 20, 30, 40]
+```
+
+---
+
+### (b) Two-Dimensional Array
+
+Stores elements in rows and columns (matrix form).
+
+```
+[ [1, 2, 3],
+  [4, 5, 6] ]
+```
+
+Accessed using `array[row][column]`.
+
+---
+
+### (c) Multidimensional Array
+
+Arrays with more than two dimensions, commonly used in scientific computing.
+
+---
+
+## 4. Advantages of Arrays
+
+* ✅ Fast access using index (O(1) time)
+* ✅ Easy to traverse and use
+* ✅ Efficient for storing and processing sequential data
+* ✅ Cache-friendly due to contiguous memory
+
+---
+
+## 5. Disadvantages of Arrays
+
+* ❌ Fixed size (in low-level languages)
+* ❌ Insertion and deletion are costly (shifting required)
+* ❌ Memory wastage if size is over-allocated
+* ❌ Stores only homogeneous data (in traditional arrays)
+
+---
+
+## 6. Basic Operations on Arrays
+
+### 6.1 Traversal
+
+Accessing each element one by one.
+
+### 6.2 Insertion
+
+Adding an element at:
+
+* Beginning
+* End
+* Specific position
+
+Requires shifting elements.
+
+### 6.3 Deletion
+
+Removing an element from:
+
+* Beginning
+* End
+* Specific position
+
+Also requires shifting.
+
+### 6.4 Searching
+
+Finding an element using:
+
+* Linear Search – O(n)
+* Binary Search – O(log n) (only if sorted)
+
+---
+
+## 7. Time Complexity
+
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Access    | O(1)            |
+| Search    | O(n)            |
+| Insertion | O(n)            |
+| Deletion  | O(n)            |
+
+---
+
+## 8. Array vs Linked List
+
+| Feature   | Array       | Linked List    |
+| --------- | ----------- | -------------- |
+| Memory    | Contiguous  | Non-contiguous |
+| Size      | Fixed       | Dynamic        |
+| Access    | Fast (O(1)) | Slow (O(n))    |
+| Insertion | Costly      | Efficient      |
+
+---
+
+## 9. Applications of Arrays
+
+* Storing and processing large datasets
+* Implementing other data structures (Stacks, Queues, Heaps)
+* Matrix operations and image processing
+* Searching and sorting algorithms
+* Dynamic Programming problems
+
+---
+
+## 10. Conclusion
+
+Arrays are one of the most fundamental data structures. They provide **fast access** and are easy to use, making them ideal when the size is known and frequent access is required. However, they are less efficient for frequent insertions and deletions.
+
+---
+
