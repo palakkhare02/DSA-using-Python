@@ -1,6 +1,4 @@
-Here is a **clean, well-structured theory note on Linked List in Python** that you can directly upload to your GitHub as a `.md` or `.txt` notes file.
 
----
 
 # 📌 Linked List in Python – Theory Notes
 
